@@ -1,0 +1,21 @@
+:root {
+	--bg-color: #282b30;
+	--txt-color: #ffffff;
+}
+
+@font-face {
+    font-family: 'default';
+    src: url('../fonts/klukva_version_01-webfont.woff2') format('woff2'),
+         url('../fonts/klukva_version_01-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-color: var(--bg-color);
+	background-image: url(../img/qt.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: var(--txt-color);
+	font-family: 'default';
+}
